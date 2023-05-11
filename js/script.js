@@ -27,6 +27,7 @@ function add(number1, number2) {
     return (Math.sqrt(number1)) + " and " + (Math.sqrt(number2));
   }
 
+
   //User Interface Logic
 
   $(document).ready(function() {
@@ -55,4 +56,6 @@ function add(number1, number2) {
 
       event.preventDefault();
     });
+
+    
   });
